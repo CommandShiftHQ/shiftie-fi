@@ -10,6 +10,8 @@ This demo is built in React using Vite. It demonstrates how you can achieve fron
 
 3. Follow the instructions in the lecture to create a Firebase project and add authentication to your Firebase project through the [Firebase console](https://console.firebase.google.com/).
 
-4. In this repo, copy .env.example to .env, and populate the values from your project's Firebase settings in the Firebase console.
+4. Under Service accounts in the Firebase console, add a new private key. Move the downloaded file to the root of the Music Library API project and rename it to cert.json.
 
-5. In this repo, run `npm i` and `npm start`. Open your browser to http://localhost:5173/ - you should be good to go!
+5. In this repo, copy .env.example to .env, and populate the values from your project's Firebase settings in the Firebase console.
+
+6. In this repo, run `npm i` and `npm start`. Open your browser to http://localhost:5173/ - you should be good to go!
